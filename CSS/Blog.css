@@ -34,5 +34,41 @@
     background-color:#2f3b65;
     justify-content: space-around;
     padding: 16px;
-    
+    width: 10vw;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.post{
+    display: flex;
+}
+.post-1{
+    display: flex;
+    margin: 0 17%;
+    width: 60%;
+}
+.post-row{
+    margin: 40px 40px;
+    max-width: 40%;
+}
+.post-col{
+    padding-bottom: 60px;
+    background-color: rgb(248, 244, 244);
+}
+.post-col img{
+    width:100%
+}
+.post-col h2{
+    font-size: x-large;
+    font-family: sans-serif;
+    padding-top: 10px;
+
+}
+.post-col p{
+    padding-top: 10px;
+
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
 }
