@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing:  border-box;
+}
+.header h2{
+    font-size: 30px;
+    color: white;
+    margin: 10px;
+}
+.header p{
+    font-size: 25px;
+    color: white;
+
+}
+.header{
+    background-color:#2f3b65;
+    height: 13vh;
+    /* width: 100%; */
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+    /* line-height: -10px; */
+}
+.recent{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    padding: 20px;
+    justify-content:space-evenly; 
+}
+.row-1{
+    color: white;
+    background-color:#2f3b65;
+    justify-content: space-around;
+    padding: 16px;
+    
+}
