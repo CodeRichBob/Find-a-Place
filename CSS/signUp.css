@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container, .container-fluid{
+    padding-right:var(--bs-gutter-x,0);
+    padding-left:var(--bs-gutter-x,0);
+
+    overflow-x: hidden;
+}
+.login{
+    background-color: #ECDBBA;
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.bg-image{
+    background-image: url('../Images/craeteaccount.jpg');
+    background-size: cover;
+}
+
+.btn-primary,.btn-primary:hover,.btn-primary:active,.btn-primary:visited, .btn-primary:focus{
+    background-color: #C84B31;
+    font-style: normal;
+    border-color: none;
+    color: black;
+    font-weight: normal;
+    border-color: #C84B31 ;
+}
+
+.btn-primary:focus{
+    background-color: #C84B31 !important;
+    border: 0 !important;
+    box-shadow: none !important;
+ }
+ .login-heading{
+     font-weight: bold;
+ }
+ .btn-outline-primary,.btn-outline-primary:active,.btn-outline-primary:hover{
+     border-color: #C84B31;
+     color:black;
+     border-color: none;
+ }
+ .btn-outline-primary:focus {
+     
+    border-color: #C84B31 !important;
+    box-shadow: none !important;
+ }
+ .btn-outline-primary:hover{
+     background-color: #C84B31 ;
+ }
+
+ 
+
+ 
