@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Navigation bar section */
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo img{
+    height: 100px;
+}
+.items ul li{
+    display: inline-block;
+    justify-content: space-around;
+    padding: 30px;
+    color: #18A0FB;
+    font-weight: bold;
+
+}
+.logbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* margin: 20px;
+    padding: 10px; */
+
+}
+.login {
+    padding: 10px;
+    width: 7vw;
+    border: .5px solid #18A0FB;
+    background: none;
+    border-radius: 5px;
+    margin-right: 20px;
+
+}
+.register {
+    padding: 10px;
+    width: 7vw;
+    border: .5px solid #18A0FB;
+    background: #18A0FB;
+    border-radius: 5px;
+    
+}
+
+/* End of navigation bar section */
+
+/* Welcome text section with image on the right */
+
+.slogan {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+.finder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: flex-start;
+}
+
+.guyhome img {
+    margin-right: 40px;
+    margin-top: 20px;
+    background-size: cover;
+    height: 95vh;
+    width: 80vh;
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.finder h1 {
+    color: #2D4263;
+    font-size: 44px;
+    padding: 10px;
+}
+.finder p {
+    color: #C84B31;
+    font-size: 17px;
+    font-weight: 800;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+.finder button {
+    padding: 10px;
+    width: 12vw;
+    border: .5px solid #18A0FB;
+    background: #18A0FB;
+    border-radius: 5px;
+    margin-top: 40px;
+    align-self: flex-start;
+    color: white;
+    margin-left: 10px;
+}
+
+/* End of welcome text section */
+
+/* Newly listed apartments section */
+
+.apartment {
+    height: 130vh;
+    width: 100%;
+}
+.aptlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list1 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    height: 430px;
+    width: 250px;
+    background: #e8ecee;
+
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+
+
+.list1 img {
+    height: 280px;
+    width: 250px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
