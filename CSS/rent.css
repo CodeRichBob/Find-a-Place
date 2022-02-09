@@ -109,3 +109,16 @@
   text-align: center;
   box-shadow: 0 0 30px grey;
 }
+.apart-btn {
+  height: 40px;
+  width: 110px;
+  border-radius: 5px;
+  border: none;
+  background-color: #c84b31;
+  color: white;
+  font-size: 20px;
+  margin-top: 60px;
+}
+.oneb1:hover {
+  box-shadow: 0 0 30px #2d4263;
+}
