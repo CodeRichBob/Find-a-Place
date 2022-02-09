@@ -68,7 +68,11 @@ margin-right: 10px;
 
 }
 
-
+.images{
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+}
 
 .img-car{
     width: 100%;
