@@ -3,6 +3,9 @@
 	padding:0;
 	box-sizing:  border-box;
 }
+body{
+    background-color: rgb(225, 228, 228);
+}
 .header h2{
     font-size: 30px;
     color: white;
@@ -41,34 +44,124 @@
 }
 .post{
     display: flex;
+    justify-content: space-around;
+    /* background-color: chartreuse; */
 }
 .post-1{
     display: flex;
-    margin: 0 17%;
-    width: 60%;
+    margin: 0 10%;
+    width: 100%;
+    /* background-color: brown; */
+    
+
 }
 .post-row{
-    margin: 40px 40px;
-    max-width: 40%;
+    margin: 0% 2%;
+    max-width: 50%;
+    /* background-color: firebrick; */
+    
+    /* display:inline-block; */
+
 }
 .post-col{
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     background-color: rgb(248, 244, 244);
 }
 .post-col img{
     width:100%
 }
-.post-col h2{
+.post-col a{
     font-size: x-large;
     font-family: sans-serif;
     padding-top: 10px;
+    padding-left: 5px;
+    color: black;
 
 }
 .post-col p{
     padding-top: 10px;
+    padding-left: 5px;
+
 
 }
 .icons{
     display: flex;
     justify-content: space-around;
+    padding-top: 10px;
+    padding-right: 90px;
+
+}
+.icons-1 {
+display: flex;
+align-items: center;
+
+}
+.icons-1 .fa{
+    color: #345c0f;
+    padding-top: 5px;
+
+}
+.popular{
+    display: flex;
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 12px;
+
+}
+.popular-1{
+/* background-color: darkred; */
+max-width: 50%;
+}
+.popular-1 img{
+    width:100%;
+
+
+}
+.popular-2 a{
+    font-size: 17px;
+    color: rgb(12, 83, 238);
+    font-weight: bold;
+}
+.popular-2{
+    max-width: 100%;
+    line-height: 50px;
+    padding-left: 20px;
+}
+.post-2 h2{
+    font-size: 32px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+.post-2{
+    background-color: rgb(230, 236, 236);
+    width: 40%;
+    margin-right: 20px;
+    justify-content: space-around;
+}
+.post-3 img{
+max-width: 100%;
+}
+.post-3 h3{
+    font-size: 30px;
+}
+.button .btn{
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 23px;
+    /* background: transparent; */
+    position: relative;
+    border-radius: 40px;
+    cursor: pointer;
+    margin: 0 15px;
+    margin-top: 30px;
+    background-color: rgb(26, 26, 158);
+}
+.button{
+
 }
