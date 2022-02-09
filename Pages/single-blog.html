@@ -20,28 +20,29 @@
                 <h2>Blog</h2>
                 <p>Our All News Feed</p>
             </div>
-            <div id="descript" class="container-lg">
+            <div id="descript" class="container-lg-fluid">
                 <h3>Finding the best places to search houses in Kenya</h3>
-                <div class="review">
+                <div class="review-fluid">
                     <div class="rows">
-                        <h3>Date</h3>
+                        <h5>Date</h5>
                         <p>Feb 08,2022</p>
                     </div>
                     <div class="rows">
-                        <h3>Category</h3>
+                        <h5>Category</h5>
                         <p>Housing/Travel</p>
                     </div>
                     <div class="rows">
-                        <h3>Tag</h3>
+                        <h5>Tag</h5>
                         <p>Rent,Affodable,Hot,Special</p>
                     </div>
                     <div class="rows">
-                        <h3>Views</h3>
+                        <h5>Views</h5>
                         <p><i class="fa fa-eye" aria-hidden="true"></i>55</p>
                     </div>
                     <div class="rows">
-                        <h3>Like</h3>
-                        <p><i class="fa fa-thumbs-up" aria-hidden="true">40</i>
+                        <h5>Like</h5>
+                        <i onclick="myFunction(this)" class="fa fa-thumbs-up">40</i>
+                        <!-- <p><i class="fa fa-thumbs-up">40</i> -->
                         </p>
                     </div>
                 </div>
@@ -66,7 +67,6 @@
                     <h3>Share</h3>
                     <i class="fa fa-instagram"></i>
                     <i class="fa fa-twitter"></i>
-                    <i class="fa fa-university" aria-hidden="true"></i>
                 </div>
             </div>
         </div>
@@ -153,7 +153,7 @@
                       </div>
                       </div>
                   <div class="row">
-                    <div class="col-6">
+                    <div class="col-6-fluid">
                   <textarea type="text" class="input" placeholder="Your Comment Here" v-model="newItem" @keyup.enter="addItem()"></textarea>
                       <button v-on:click="addItem()" class='btn-box' type="submit">Your Comment</button>
                     </div>
@@ -195,6 +195,11 @@
      
       });
     </script>
+    <script>
+        function myFunction(x) {
+          x.classList.toggle("fa-thumbs-down");
+        }
+        </script>
 </body>
 
 </html>

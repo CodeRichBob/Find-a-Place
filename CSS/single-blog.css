@@ -25,24 +25,30 @@ body{
 margin-top: 40px; */
 
 }
-.review{
+.review-fluid{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 #descript{
-    max-width: 50%;
+    max-width: 60%;
     justify-content: flex-start;
+    /* background-color: deeppink; */
+    /* padding-right: 20px; */
+    margin-left: 15%;
+    margin-top: 5%;
 
 }
 #descript h3{
-    font-size: 30px;
-    padding-top: 20px;
+    font-size: 26px;
 
 }
 #descript p{
 font-size: 15px;
 justify-content: space-between;
+}
+.rows{
+    justify-content: space-around;
 }
 .container-xl{
     max-width: 100%;
@@ -162,4 +168,16 @@ text-align: center;
     text-align: center;
     font-weight: bolder;
     
+}
+@media screen and (max-width: 760px){
+    #colums{
+        flex-direction: column;
+    }
+    #descript{
+        /* flex-direction: column; */
+    }
+    .review-fluid{
+        flex-direction: column;
+        font-size: 20px;
+    }
 }
