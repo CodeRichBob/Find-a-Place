@@ -23,29 +23,32 @@ body{
     text-align: center;
     padding: 20px;
 }
-.recent{
+.recent-fluid{
     display: flex;
     flex-direction: row;
     margin: 30px;
     padding: 20px;
     justify-content:space-evenly; 
 }
-.row-1{
+.container-sm{
     color: white;
     background-color:#2f3b65;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     padding: 16px;
-    width: 10vw;
+    /* width: 10vw; */
     border-radius: 5px;
     text-align: center;
 
 }
-.post{
+.container-sm h2{
+     max-width: 100%;
+}
+.container-xl{
     display: flex;
     justify-content: space-around;
     /* background-color: chartreuse; */
 }
-.post-1{
+.post-1-fluid{
     display: flex;
     margin: 0 10%;
     width: 100%;
@@ -62,8 +65,22 @@ body{
 
 }
 .post-col{
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     background-color: rgb(248, 244, 244);
+    /* flex: 1; */
+    border: 1px solid #666;
+    margin: 20px;
+    /* padding: 10px; */
+    background: #fff;
+    transition: 0.3s;
+    text-align: justify;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	outline: none;
+	/* box-shadow: 1px 2px 2px 2px #888888; */
+	box-shadow: inset;
+	border: none;
 }
 .post-col img{
     width:100%
@@ -174,3 +191,74 @@ text-align: center;
     /* background-color: blue; */
 }
 
+@media screen and (max-width: 1070px){
+    .recent-fluid{
+        /* flex-direction: column; */
+        /* padding: 10px; */
+        padding-top: 20px;
+    }
+    .post-1-fluid{
+        /* flex-direction: column; */
+        max-width: 50%;
+        /* justify-content: center; */
+        text-align: center;
+        margin-left: 10px;
+
+    }
+    .container-xl{
+        /* flex-direction: column; */
+    }
+    .icons-1{
+        font-size: 12px;
+    }
+    .post-row{
+        max-width: 50%;
+        text-align: center;
+    }
+    .post-2{
+        /* background-color: deeppink; */
+        text-align: center;
+        max-width: 100%;
+        margin-left: 30px;
+        width: 50%;
+    }
+
+}
+@media screen and (max-width: 760px){
+    .recent-fluid{
+        flex-direction: column;
+        /* padding: 10px; */
+        padding-top: 20px;
+    }
+    .post-1-fluid{
+        flex-direction: column;
+        max-width: 100%;
+        /* justify-content: center; */
+        text-align: center;
+        margin-left: 10px;
+
+    }
+    .container-xl{
+        flex-direction: column;
+    }
+    .icons-1{
+        font-size: 12px;
+    }
+    .post-row{
+        max-width: 100%;
+        text-align: center;
+    }
+    .post-2{
+        /* background-color: deeppink; */
+        text-align: center;
+        max-width: 100%;
+        margin-left: 30px;
+        width: 100%;
+    }
+    .post-4{
+        position: relative;
+        top: 40px;
+        /* background-color: blue; */
+    }
+
+}
