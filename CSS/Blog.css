@@ -19,11 +19,9 @@ body{
 .header{
     background-color:#2f3b65;
     height: 13vh;
-    /* width: 100%; */
     align-content: center;
     text-align: center;
     padding: 20px;
-    /* line-height: -10px; */
 }
 .recent{
     display: flex;

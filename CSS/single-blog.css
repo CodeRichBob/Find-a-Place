@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing:  border-box;
+}
+body{
+    background-color: rgb(225, 228, 228);
+}
+.header{
+    background-color:#2f3b65;
+    height: 13vh;
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.header h2{
+    font-size: 30px;
+    color: white;
+    margin: 10px;
+}
+.header p{
+    font-size: 25px;
+    color: white;
+
+}
