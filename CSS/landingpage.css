@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800;900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -55,11 +56,12 @@
 /* Welcome text section with image on the right */
 
 .slogan {
-    height: 100vh;
+    height: 130vh;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
     box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
 }
 .finder {
@@ -71,7 +73,7 @@
 
 .guyhome img {
     margin-right: 40px;
-    margin-top: 20px;
+    margin-top: 90px;
     background-size: cover;
     height: 95vh;
     width: 80vh;
@@ -108,17 +110,36 @@
 /* Newly listed apartments section */
 
 .apartment {
-    height: 130vh;
+    height: 200vh;
     width: 100%;
 }
+.titlenew {
+    padding: 20px;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.titlenew p {
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.titlenew h1 {
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
 .aptlist {
+    margin-left: 30px;
+    margin-right: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    
 }
 
 .list1 {
+    
     display: flex;
     flex-direction: column;
     border-radius: 30px;
@@ -127,6 +148,7 @@
     background: #e8ecee;
 
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+
 }
 
 
@@ -136,4 +158,40 @@
     width: 250px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+}
+
+.list1 h3 {
+    font-size: 13px;
+    margin: 10px;
+    
+}
+.list1 ul li{
+    font-size: 13px;
+    margin-left: 40px;
+}
+.price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.price p {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    margin: 5px;
+}
+.booknow {
+    padding: 5px;
+    width: 7vw;
+    margin: 8px;
+    border: .5px solid #18A0FB;
+    background: #18A0FB;
+    border-radius: 5px;
+    align-self: flex-start;
+    color: white;
+
+}
+.second {
+    margin-top: 30px;
 }
