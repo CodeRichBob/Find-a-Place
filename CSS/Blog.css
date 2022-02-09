@@ -144,6 +144,9 @@ max-width: 100%;
 }
 .post-3 h3{
     font-size: 30px;
+    text-align: center;
+    /* position: relative;
+    top: 40px; */
 }
 .button .btn{
     font-size: 20px;
@@ -154,14 +157,22 @@ max-width: 100%;
     border: 1px solid #fff;
     padding: 12px 34px;
     font-size: 23px;
-    /* background: transparent; */
+    background: transparent;
     position: relative;
     border-radius: 40px;
     cursor: pointer;
-    margin: 0 15px;
-    margin-top: 30px;
-    background-color: rgb(26, 26, 158);
-}
-.button{
+    /* margin: 0 15px; */
+    /* background-color: rgb(26, 26, 158); */
+    position: relative;
+    bottom: 60px;
 
 }
+.button{
+text-align: center;
+}
+.post-4{
+    position: relative;
+    top: 270px;
+    /* background-color: blue; */
+}
+
