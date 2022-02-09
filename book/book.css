@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+}
+.Box1 {
+    display: flex;
+    font-size: x-large;
+    
+    
+}
+.Box1 button {
+    background-color: blue;
+    color: white;
+
+}
