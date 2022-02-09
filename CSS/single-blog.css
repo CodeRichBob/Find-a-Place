@@ -4,7 +4,7 @@
 	box-sizing:  border-box;
 }
 body{
-    background-color: rgb(225, 228, 228);
+    background-color: rgb(208, 223, 223);
 }
 .header{
     background-color:#2f3b65;
@@ -22,4 +22,66 @@ body{
     font-size: 25px;
     color: white;
 
+}
+.review-fluid{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#descript{
+    /* background-image: rgb(75, 24, 24); */
+
+}
+#descript h3{
+    font-size: 30px;
+    padding-top: 20px;
+
+}
+#descript p{
+font-size: 15px;
+justify-content: space-between;
+}
+.container-xl{
+    max-width: 100%;
+
+}
+.container-xl p{
+    text-align: justify;
+    max-width: 80%;
+
+}
+.share .fa{
+    color: crimson;
+}
+.related-1-fluid{
+    background-color: crimson;
+}
+#related{
+}
+#related-1-fluid img{
+max-width: 100%
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.coloms{
+    padding: 20px 20px;
+   
+}
+.coloms img{
+    max-width: 100%;
+}
+#colums{
+    display: flex;
+
+}
+.icons-1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.icons-1 .fa{
+    padding-right: 20px;
+    color: darkred;
 }
