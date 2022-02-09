@@ -21,15 +21,18 @@ body{
 .header p{
     font-size: 25px;
     color: white;
+/* padding-top: 40px;
+margin-top: 40px; */
 
 }
-.review-fluid{
+.review{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 #descript{
-    /* background-image: rgb(75, 24, 24); */
+    max-width: 50%;
+    justify-content: flex-start;
 
 }
 #descript h3{
@@ -74,6 +77,8 @@ max-width: 100%
 }
 #colums{
     display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
 
 }
 .icons-1{
@@ -84,4 +89,77 @@ max-width: 100%
 .icons-1 .fa{
     padding-right: 20px;
     color: darkred;
+}
+.coloms a{
+    font-size: 20px;
+    color: darkslategray;
+}
+.heading h3{
+    text-align: center;
+    font-weight: bolder;
+    
+}
+.comment-col-1 img{
+    border-radius: 50%;
+
+
+}
+.avatar{
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+}
+.comments h3{
+text-align: center;
+}
+/* comments */
+.box-fluid {
+    max-width: 70%;
+    margin: 30px auto;
+    background: rgb(226, 226, 223);
+    border-radius: 8px;
+    padding: 20px;
+}
+        .comment {
+    display: block;
+    transition: all 1s;
+}
+.afterText {
+    min-height: 0px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 5px 10px
+}
+        .box-fluid textarea {
+    width: 100%;
+    border: none;
+    background: #262626;
+    padding: 15px;
+    height: 50%;
+    border-radius: 5px;
+    transition: all 0.5s;
+    margin-top: 15px;
+    color: #fff;
+    font-family: 'montserrat';
+}
+        button.btn-box {
+    background: #262626;
+    color: #fff;
+    padding: 20px 25px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: 1s all;
+    font-size: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+        button.btn-box:hover {
+    background: darkorange;
+}
+.comments h3{
+    text-align: center;
+    font-weight: bolder;
+    
 }
