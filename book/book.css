@@ -5,15 +5,25 @@ h1 {
     display: flex;
     font-size: x-large;
     margin-left: 1em;
-    background-color: #C4C4C4;;
+    /* background-color: #C4C4C4;; */
     
     
 }
+.house1b{
+    margin-left: 10%;
+}
+
 .Box1 button {
     background-color: blue;
     color: white;
-    border-radius: 2em;
+    border-radius: 1em;
     margin-left: 2em;
+   background-color: brown;
+   /* position: relative;
+   top: 20px; */
+   margin-top: 20%;
+   padding: 5%;
+   width: 60%;
 
 
 }
@@ -51,7 +61,7 @@ h1 {
     color: white;
     border-radius: 2em;
     margin-left: 2em;
-    
+
 
 
 }
