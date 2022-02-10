@@ -12,32 +12,46 @@
     <h2>When Do you want to come?</h2>
 
     <div class="select">
-        <p>Select a Day</p>
+        <p>Select Day</p>
     
         <form action="">
-            <label for="date">Date:</label>
-            <input type="date" id="birthday" name="birthday">
-              <input type="submit">
+            <label for="date"></label>
+            <input type="date" id="date" name="date">
+              
         </form>
        
 
         <p>Select Hour</p>
         <form action="">
-            <label for="appt">Select a time:</label>
+            <label for="appt"></label>
             <input type="time" id="appt" name="appt">
-            <input type="submit">
+           
         </form>
 
-        
-
-
         <p>Select Apartment</p>
-        <select name="" id="booknow"><option value="">1 Bedroom</option></select>
+        <select name="">
+        <option value="">1 Bedroom</option>
+        <option value="">2 Bedroom</option>
+        <option value="">3 Bedroom</option>
+        <option value="">Studio Apartment</option>
+       
+        </select>
+
+
+
 
         <p>Select Location</p>
-        <select name="" id="booknow"><option value="">Nairobi</option></select><br>
+        <select name="" >
+        <option value="">Westlands</option>
+        <option value="">Kilimani</option>
+        <option value="">Karen</option>
+        <option value="">Githurai</option>
+         </select><br>
 
-        <a href=""><button id="submit">BOOK NOW</button></a>
+        <a href=""><button>Submit</button></a>
+            <form action="/action_page.php" onsubmit="myFunction()">
+            </form>
+          
     </div>
 </body>
 </html>
