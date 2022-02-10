@@ -16,6 +16,8 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  height: 15vh;
+  background: #ffffff;
 }
 .logo img {
   height: 100px;
@@ -41,6 +43,7 @@
   background: none;
   border-radius: 5px;
   margin-right: 20px;
+  cursor: pointer;
 }
 .register {
   padding: 10px;
@@ -48,8 +51,15 @@
   border: 0.5px solid #18a0fb;
   background: #18a0fb;
   border-radius: 5px;
+  cursor: pointer;
+}
+.login:hover {
+  background: #c84b31;
 }
 
+.register:hover {
+  background: #c84b31;
+}
 .narration {
   text-align: center;
   position: absolute;
