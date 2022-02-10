@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.login{
+    background-color:#ECDBBA;
+    background-size: cover;
+    min-height: 100vh;
+}
+.container, .container-fluid{
+    padding-right:var(--bs-gutter-x,0);
+    padding-left:var(--bs-gutter-x,0);
+
+    overflow-x: hidden;
+}
+
+.bg-image{
+    background-image: url('../Images/login.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btn-primary, .btn-primary:hover,.btn-primary:active, .btn-primary:visited{
+    background-color: #C84B31;
+    border: none;
+    color: black;
+}
+.btn-primary:focus{
+    border: none;
+    background-color: #C84B31;
+    box-shadow: none;
+    color: black;
+    box-shadow: none !important;
+
+
+}
+.btn-outline-primary,.btn-outline-primary:active,.btn-outline-primary:hover{
+    border-color: #C84B31;
+    color:black;
+    border-color: none;
+}
+.btn-outline-primary:hover{
+    background-color: #C84B31;
+
+}
+.btn-outline-primary:focus {
+    
+   border-color: #C84B31 !important;
+   box-shadow: none !important;
+}
+#toast {
+	/* By Default, Hidden */
+	visibility: hidden;
+	min-width: 250px;
+	background-color: rgb(231, 39, 39);
+	color: #fff;
+	text-align: left;
+	border-radius: 2px;
+	padding: 16px;
+	position: fixed;
+	z-index: 1;
+	right: 10px;
+	bottom: 30px;
+}
+.show-bar {
+    visibility: visible !important;
+    animation: fadein 0.5s, fadeout 0.5s 4.5s;
+    }
+    
+    @keyframes fadein {
+    from {
+    bottom: 0;
+    opacity: 0;
+    }
+    to {
+    bottom: 30px;
+    opacity: 1;
+    }
+    }
+    
+    /* when the Snackbar Disappears
+    from the Screen */
+    @keyframes fadeout {
+    from {
+    bottom: 30px;
+    opacity: 1;
+    }
+    to {
+    bottom: 0;
+    opacity: 0;
+    }
+    }
+    
+
+.spandesign{
+    float: right;
+    }
