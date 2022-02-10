@@ -171,6 +171,29 @@ margin-right: 10px;
     
 }
 
+.footer{
+margin-top: 150px;
+color: azure;
+margin-right: 20px;
+padding-right: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
+border-radius: 20px;
+font-size: 20px;
+
+
+}
+.footer button{
+    border: none;
+}
+
+.mode{
+
+display: flex;
+justify-content: center;
+
+}
+
 
 
 
