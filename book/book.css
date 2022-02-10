@@ -30,7 +30,7 @@ h1 {
 
 .houses {
     display: flex;
-    background-color: #C4C4C4;
+    /* background-color: #C4C4C4; */
     margin: 2em;
     border-width: solid;
 
@@ -44,7 +44,7 @@ h1 {
     padding-right: 1em; */
 
         padding-bottom: 10px;
-        background-color: rgb(248, 244, 244);
+        background-color: rgb(255, 255, 255);
         border: 1px solid #666;
         margin: 20px;
         background: #fff;
@@ -126,7 +126,7 @@ h1 {
 }
 .houses2 {
     display: flex;
-    background-color: #C4C4C4;
+    /* background-color: #C4C4C4; */
     margin: 2em;
     border-width: solid;
 
@@ -215,7 +215,7 @@ h1 {
     display: flex;
     margin: 2em;
     border-width: solid;
-    background-color: #C4C4C4;
+    /* background-color: #C4C4C4; */
 }
 
 .block3a {
