@@ -20,14 +20,18 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-.btn-primary, .btn-primary:hover,.btn-primary:active{
+.btn-primary, .btn-primary:hover,.btn-primary:active, .btn-primary:visited{
     background-color: #C84B31;
     border: none;
     color: black;
 }
 .btn-primary:focus{
-    border: 0;
+    border: none;
+    background-color: #C84B31;
     box-shadow: none;
+    color: black;
+    box-shadow: none !important;
+
 
 }
 .btn-outline-primary,.btn-outline-primary:active,.btn-outline-primary:hover{
@@ -44,7 +48,7 @@
    border-color: #C84B31 !important;
    box-shadow: none !important;
 }
-#snackbar {
+#toast {
 	/* By Default, Hidden */
 	visibility: hidden;
 	min-width: 250px;
@@ -53,18 +57,41 @@
 	text-align: left;
 	border-radius: 2px;
 	padding: 16px;
-	/* To always Keep on
-	Top of screen */
 	position: fixed;
-
-	/* To be displayed above
-	Parent HTML DOM element */
 	z-index: 1;
-
-	/* Position Bottom Left
-	Corner of Screen */
 	right: 10px;
 	bottom: 30px;
 }
+.show-bar {
+    visibility: visible !important;
+    animation: fadein 0.5s, fadeout 0.5s 4.5s;
+    }
+    
+    @keyframes fadein {
+    from {
+    bottom: 0;
+    opacity: 0;
+    }
+    to {
+    bottom: 30px;
+    opacity: 1;
+    }
+    }
+    
+    /* when the Snackbar Disappears
+    from the Screen */
+    @keyframes fadeout {
+    from {
+    bottom: 30px;
+    opacity: 1;
+    }
+    to {
+    bottom: 0;
+    opacity: 0;
+    }
+    }
+    
 
-
+.spandesign{
+    float: right;
+    }
