@@ -26,18 +26,23 @@
 .login {
     padding: 10px;
     width: 7vw;
-    border: .5px solid #18A0FB;
+    border: .5px solid #C84B31;
     background: none;
     border-radius: 5px;
     margin-right: 20px;
+    cursor: pointer;
 
+}
+.login:hover {
+    background-color: blue;
 }
 .register {
     padding: 10px;
     width: 7vw;
-    border: .5px solid #18A0FB;
-    background: #18A0FB;
+    border: .5px solid #C84B31;
+    background: #C84B31;
     border-radius: 5px;
+    cursor: pointer;
     
 }
 h1 {
@@ -56,11 +61,10 @@ h1 {
 }
 
 .Box1 button {
-    background-color: blue;
+    background-color: #C84B31;
     color: white;
     border-radius: 1em;
     margin-left: 2em;
-   background-color: brown;
    /* position: relative;
    top: 20px; */
    margin-top: 20%;
@@ -102,7 +106,7 @@ h1 {
  
 }
 .block1a button {
-    background-color: blue;
+   background-color: #C84B31;
     color: white;
     border-radius: 2em;
     margin-left: 2em;
@@ -132,7 +136,7 @@ h1 {
 }
 
 .block1b button {
-    background-color: blue;
+    background-color:#C84B31;
     color: white;
     border-radius: 2em;
     margin-left: 2em;
@@ -161,7 +165,7 @@ h1 {
     
 }
 .block1c button {
-    background-color: blue;
+    background-color: #C84B31;
     color: white;
     border-radius: 2em;
     margin-left: 2em;
@@ -194,7 +198,7 @@ h1 {
 
 }
 .block2a button {
-    background-color: blue;
+    background-color: #C84B31;
     color: white;
     border-radius: 2em;
     margin-left: 2em;
@@ -221,7 +225,7 @@ h1 {
     
 }
 .block2b button {
-    background-color: blue;
+    background-color: #C84B31;
     color: white;
     border-radius: 2em;
     margin-left: 2em;
@@ -247,7 +251,7 @@ h1 {
 
 }
 .block2c button {
-    background-color: blue;
+    background-color: #C84B31;
     color: white;
     border-radius: 2em;
     margin-left: 2em;
@@ -281,7 +285,7 @@ h1 {
 
 }
 .block3a button {
-    background-color: blue;
+    background-color: #C84B31;
     color: white;
     border-radius: 2em;
     margin-left: 2em;
@@ -308,7 +312,7 @@ h1 {
 }
 
 .block3b button {
-    background-color: blue;
+    background-color: #C84B31;
     color: white;
     border-radius: 2em;
     margin-left: 2em;
@@ -334,7 +338,7 @@ h1 {
     
 }
 .block3c button {
-    background-color: blue;
+    background-color: #C84B31;
     color: white;
     border-radius: 2em;
     margin-left: 2em;
@@ -361,4 +365,4 @@ h1 {
     justify-content: center;
     
     }
-    
+
