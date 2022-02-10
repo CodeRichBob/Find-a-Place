@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.login{
+    background-color:#ECDBBA;
+    background-size: cover;
+    min-height: 100vh;
+}
+.container, .container-fluid{
+    padding-right:var(--bs-gutter-x,0);
+    padding-left:var(--bs-gutter-x,0);
+
+    overflow-x: hidden;
+}
+
+.bg-image{
+    background-image: url('../Images/login.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btn-primary, .btn-primary:hover,.btn-primary:active{
+    background-color: #C84B31;
+    border: none;
+    color: black;
+}
+.btn-primary:focus{
+    border: 0;
+    box-shadow: none;
+
+}
+.btn-outline-primary,.btn-outline-primary:active,.btn-outline-primary:hover{
+    border-color: #C84B31;
+    color:black;
+    border-color: none;
+}
+.btn-outline-primary:hover{
+    background-color: #C84B31;
+
+}
+.btn-outline-primary:focus {
+    
+   border-color: #C84B31 !important;
+   box-shadow: none !important;
+}
+#snackbar {
+	/* By Default, Hidden */
+	visibility: hidden;
+	min-width: 250px;
+	background-color: rgb(231, 39, 39);
+	color: #fff;
+	text-align: left;
+	border-radius: 2px;
+	padding: 16px;
+	/* To always Keep on
+	Top of screen */
+	position: fixed;
+
+	/* To be displayed above
+	Parent HTML DOM element */
+	z-index: 1;
+
+	/* Position Bottom Left
+	Corner of Screen */
+	right: 10px;
+	bottom: 30px;
+}
+
+
