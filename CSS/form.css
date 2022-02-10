@@ -1,0 +1,23 @@
+body {
+    background-color: #ffffff;
+    text-align: center;
+}
+#submit {
+    margin-top: 30px;
+}
+.select {
+    border: solid black;
+    margin-left: 25em;
+    margin-right: 25em;
+    margin-bottom: 2rem;
+}
+form #btn{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+
+}

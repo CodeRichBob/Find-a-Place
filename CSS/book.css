@@ -1,0 +1,364 @@
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo img{
+    height: 100px;
+}
+.items ul li{
+    display: inline-block;
+    justify-content: space-around;
+    padding: 30px;
+    color: #18A0FB;
+    font-weight: bold;
+
+}
+.logbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* margin: 20px;
+    padding: 10px; */
+
+}
+.login {
+    padding: 10px;
+    width: 7vw;
+    border: .5px solid #18A0FB;
+    background: none;
+    border-radius: 5px;
+    margin-right: 20px;
+
+}
+.register {
+    padding: 10px;
+    width: 7vw;
+    border: .5px solid #18A0FB;
+    background: #18A0FB;
+    border-radius: 5px;
+    
+}
+h1 {
+    text-align: center;
+}
+.Box1 {
+    display: flex;
+    font-size: x-large;
+    margin: 2em;
+    /* background-color: #C4C4C4;; */
+    
+    
+}
+.house1b{
+    margin-left: 10%;
+}
+
+.Box1 button {
+    background-color: blue;
+    color: white;
+    border-radius: 1em;
+    margin-left: 2em;
+   background-color: brown;
+   /* position: relative;
+   top: 20px; */
+   margin-top: 20%;
+   padding: 5%;
+   width: 60%;
+
+
+}
+
+.houses {
+    display: flex;
+    /* background-color: #C4C4C4; */
+    margin: 2em;
+    border-width: solid;
+
+}
+
+
+.block1a {
+  
+    /* margin-right: 2em;
+    margin-left: 2em;
+    padding-right: 1em; */
+
+        padding-bottom: 10px;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid #666;
+        margin: 20px;
+        background: #fff;
+        transition: 0.3s;
+        text-align: justify;
+        cursor: pointer;
+        box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+        border-radius: 10px;
+        outline: none;
+        box-shadow: inset;
+        border: none;
+    
+ 
+}
+.block1a button {
+    background-color: blue;
+    color: white;
+    border-radius: 2em;
+    margin-left: 2em;
+
+
+
+}
+
+.block1b {
+    /* border: white;
+    margin-right: 2em;
+    */
+        padding-bottom: 10px;
+        background-color: rgb(248, 244, 244);
+        border: 1px solid #666;
+        margin: 20px;
+        background: #fff;
+        transition: 0.3s;
+        text-align: justify;
+        cursor: pointer;
+        box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+        border-radius: 10px;
+        outline: none;
+        box-shadow: inset;
+        border: none;
+
+}
+
+.block1b button {
+    background-color: blue;
+    color: white;
+    border-radius: 2em;
+    margin-left: 2em;
+
+}
+
+.block1c {
+    /* border: white;
+    margin-right: 2em;
+    margin-left: 3px; */
+   
+        padding-bottom: 10px;
+        background-color: rgb(248, 244, 244);
+        border: 1px solid #666;
+        margin: 20px;
+        background: #fff;
+        transition: 0.3s;
+        text-align: justify;
+        cursor: pointer;
+        box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+        border-radius: 10px;
+        outline: none;
+        box-shadow: inset;
+        border: none;
+    
+    
+}
+.block1c button {
+    background-color: blue;
+    color: white;
+    border-radius: 2em;
+    margin-left: 2em;
+}
+.houses2 {
+    display: flex;
+    /* background-color: #C4C4C4; */
+    margin: 2em;
+    border-width: solid;
+
+}
+.block2a {  
+    /* border: white;
+    margin-right: 2em;
+    margin-left: 3px; */
+   
+    padding-bottom: 10px;
+    background-color: rgb(248, 244, 244);
+    border: 1px solid #666;
+    margin: 20px;
+    background: #fff;
+    transition: 0.3s;
+    text-align: justify;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    outline: none;
+    box-shadow: inset;
+    border: none;
+
+}
+.block2a button {
+    background-color: blue;
+    color: white;
+    border-radius: 2em;
+    margin-left: 2em;
+}
+.block2b {
+    /* border: white;
+    margin-right: 2em;
+    margin-left: 3px; */
+   
+    padding-bottom: 10px;
+    background-color: rgb(248, 244, 244);
+    border: 1px solid #666;
+    margin: 20px;
+    background: #fff;
+    transition: 0.3s;
+    text-align: justify;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    outline: none;
+    box-shadow: inset;
+    border: none;
+
+    
+}
+.block2b button {
+    background-color: blue;
+    color: white;
+    border-radius: 2em;
+    margin-left: 2em;
+}
+.block2c {
+    /* border: white;
+    margin-right: 2em;
+    margin-left: 3px; */
+   
+    padding-bottom: 10px;
+    background-color: rgb(248, 244, 244);
+    border: 1px solid #666;
+    margin: 20px;
+    background: #fff;
+    transition: 0.3s;
+    text-align: justify;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    outline: none;
+    box-shadow: inset;
+    border: none;
+
+}
+.block2c button {
+    background-color: blue;
+    color: white;
+    border-radius: 2em;
+    margin-left: 2em;
+}
+
+.houses3 {
+    display: flex;
+    margin: 2em;
+    border-width: solid;
+    /* background-color: #C4C4C4; */
+}
+
+.block3a {
+    /* border: white;
+    margin-right: 2em;
+    margin-left: 3px; */
+   
+    padding-bottom: 10px;
+    background-color: rgb(248, 244, 244);
+    border: 1px solid #666;
+    margin: 20px;
+    background: #fff;
+    transition: 0.3s;
+    text-align: justify;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    outline: none;
+    box-shadow: inset;
+    border: none;
+
+}
+.block3a button {
+    background-color: blue;
+    color: white;
+    border-radius: 2em;
+    margin-left: 2em;
+}
+.block3b {
+    /* border: white;
+    margin-right: 2em;
+    margin-left: 3px; */
+   
+    padding-bottom: 10px;
+    background-color: rgb(248, 244, 244);
+    border: 1px solid #666;
+    margin: 20px;
+    background: #fff;
+    transition: 0.3s;
+    text-align: justify;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    outline: none;
+    box-shadow: inset;
+    border: none;
+
+}
+
+.block3b button {
+    background-color: blue;
+    color: white;
+    border-radius: 2em;
+    margin-left: 2em;
+}
+.block3c {
+    /* border: white;
+    margin-left: 2em;
+     */
+    
+        padding-bottom: 10px;
+        background-color: rgb(248, 244, 244);
+        border: 1px solid #666;
+        margin: 20px;
+        background: #fff;
+        transition: 0.3s;
+        text-align: justify;
+        cursor: pointer;
+        box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+        border-radius: 10px;
+        outline: none;
+        box-shadow: inset;
+        border: none;
+    
+}
+.block3c button {
+    background-color: blue;
+    color: white;
+    border-radius: 2em;
+    margin-left: 2em;
+}
+.footer{
+    margin-top: 150px;
+    color: azure;
+    margin-right: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    
+    
+    }
+    .footer button{
+        border: none;
+    }
+    
+    .mode{
+    
+    display: flex;
+    justify-content: center;
+    
+    }
+    
