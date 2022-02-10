@@ -30,6 +30,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    color: #C84B31;
     /* margin: 20px;
     padding: 10px; */
 
@@ -37,21 +38,29 @@
 .login {
     padding: 10px;
     width: 7vw;
-    border: .5px solid #18A0FB;
+    border: .5px solid #C84B31;
     background: none;
     border-radius: 5px;
     margin-right: 20px;
+    cursor: pointer;
 
 }
 .register {
     padding: 10px;
     width: 7vw;
-    border: .5px solid #18A0FB;
-    background: #18A0FB;
+    border: .5px solid #C84B31;
+    background: #C84B31;
     border-radius: 5px;
-    
+    cursor: pointer;
 }
-
+.login:hover {
+    background-color: #0508b9;
+  transition: opacity 0.9s ease-in-out;
+}
+.register:hover {
+   background: #3700fd;
+  transition: opacity 0.9s ease-in-out;
+}
 /* End of navigation bar section */
 
 /* Welcome text section with image on the right */
@@ -97,8 +106,8 @@
 .finder button {
     padding: 10px;
     width: 12vw;
-    border: .5px solid #18A0FB;
-    background: #18A0FB;
+    border: .5px solid #C84B31;
+    background: #C84B31;
     border-radius: 5px;
     margin-top: 40px;
     align-self: flex-start;
@@ -147,7 +156,7 @@
     flex-direction: column;
     border-radius: 30px;
     height: 430px;
-    width: 250px;
+    width: 280px;
     background: #e8ecee;
 
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
@@ -156,14 +165,14 @@
 
 .list1:hover {
 
-  border-radius: 30px;
+  border-radius: 20px;
   box-shadow: 0 25px 45px rgba(0,0,0,0.5);
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.9s ease-in-out;
 }
 
 .list1 img {
     height: 280px;
-    width: 250px;
+    width: 280px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
@@ -193,12 +202,18 @@
     padding: 5px;
     width: 7vw;
     margin: 8px;
-    border: .5px solid #18A0FB;
-    background: #18A0FB;
+    border: .5px solid #C84B31;
+    background: #C84B31;
     border-radius: 5px;
     align-self: flex-start;
     color: white;
+    cursor: pointer;
 
+}
+.booknow:hover {
+    background: #18A0FB;
+    box-shadow: 0 25px 45px rgba(0,0,0,0.5);
+  transition: opacity 0.9s ease-in-out;
 }
 .second {
     margin-top: 30px;
@@ -298,7 +313,7 @@
    align-items: center;
    background: #fafafa;
    color: black;
-   height: 250vh;
+   height: 180vh;
    margin-top: 70px;
 }
 
@@ -329,7 +344,7 @@
  */
 } 
 .slate .part1 {
-    height: 350px;
+    height: 380px;
     width: 240px;
     padding: 30px;
     border: 1px solid rgb(207, 199, 199);
@@ -350,7 +365,7 @@
 
 
 .slate .part2 {
-    height: 350px;
+    height: 380px;
     width: 240px;
     padding: 30px;
     border: 1px solid rgb(207, 199, 199);
@@ -374,7 +389,7 @@
 
 
 .slate .part3 {
-    height: 350px;
+    height: 380px;
     width: 240px;
     padding: 30px;
     border: 1px solid rgb(207, 199, 199);
@@ -479,35 +494,35 @@
     
     color: black;
     height: 100vh;
-    width: 100%;
+    width: auto;
     padding-left: 20px;
     padding-right: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    justify-content:center;
+    align-items: flex-end;
 }
 
 /* Company starts here */
 
-.ftr .company h4 {
+.company h4 {
     font-weight: 900;
     margin-left: 20px;
 
 }
 
-.ftr .company ul {
+.company ul {
     list-style: none ;
     padding: 20px;
     text-align: left;
     /* margin: 10px 0; */
     
 }
-.ftr .company ul li {
+.company ul li {
     margin: 10px 0;
 }
 
-.ftr .company ul li a {
+.company ul li a {
     color: #011101;
     font-weight: 300;
     font-size: 10pt;
@@ -517,24 +532,24 @@
 
 /* legal starts here */
 
-.ftr .legal h4 {
+.legal h4 {
     font-weight: 900;
     margin-left: 20px;
 
 }
 
-.ftr .legal ul {
+.legal ul {
     list-style: none ;
     padding: 20px;
     text-align: left;
     /* margin: 10px 0; */
     
 }
-.ftr .legal ul li {
+.legal ul li {
     margin: 10px 0;
 }
 
-.ftr .legal ul li a {
+.legal ul li a {
     color: #011101;
     font-weight: 300;
     font-size: 10pt;
@@ -545,7 +560,7 @@
 
 /* Features starts here */
 
-.ftr .features img {
+.features img {
     height: 80px;
     width: 80%;
     margin-left: 40px;
