@@ -195,3 +195,59 @@
 .second {
     margin-top: 30px;
 }
+
+/* Our services section */
+
+.services {
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.servicestext {
+    align-items: center;
+    text-align: center;
+}
+
+.collabo {
+    display: flex;
+    flex-direction: row;
+   /*  height: 50vh;
+    width: 100%; */
+    justify-content: space-around;
+    margin-top: 40px;
+
+    align-items: center;
+    background: rgb(255, 255, 255);
+
+}
+
+.house {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+.house img {
+    height: 100px;
+    width: 100px;
+}
+
+
+/* About us section styling starts here */
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    height: 150vh;
+    width: 100%;
+    background: #e9ecee;
+}
