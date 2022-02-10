@@ -128,7 +128,48 @@ margin-right: 10px;
 }
 
 
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo img{
+    height: 100px;
+}
+.items ul li{
+    display: inline-block;
+    justify-content: space-around;
+    padding: 30px;
+    color: #18A0FB;
+    font-weight: bold;
 
+}
+.logbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* margin: 20px;
+    padding: 10px; */
+
+}
+.login {
+    padding: 10px;
+    width: 7vw;
+    border: .5px solid #18A0FB;
+    background: none;
+    border-radius: 5px;
+    margin-right: 20px;
+
+}
+.register {
+    padding: 10px;
+    width: 7vw;
+    border: .5px solid #18A0FB;
+    background: #18A0FB;
+    border-radius: 5px;
+    
+}
 
 
 
