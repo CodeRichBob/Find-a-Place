@@ -4,11 +4,161 @@ h1 {
 .Box1 {
     display: flex;
     font-size: x-large;
+    margin-left: 1em;
+    background-color: #C4C4C4;;
     
     
 }
 .Box1 button {
     background-color: blue;
     color: white;
+    border-radius: 2em;
+    margin-left: 2em;
 
+
+}
+.Sbutton {
+    margin-top: 2em;
+    margin-left: 2em;
+    border-radius: 10px;
+    margin-bottom: 2em;
+    text-align: center;
+    padding: 2rem 3rem;
+
+    
+
+
+}
+
+.houses {
+    display: flex;
+    background-color: #C4C4C4;
+    margin: 2em;
+    border-width: solid;
+
+}
+
+
+.block1a {
+  
+    margin-right: 2em;
+    margin-left: 2em;
+    padding-right: 1em;
+ 
+}
+.block1a button {
+    background-color: blue;
+    color: white;
+    border-radius: 2em;
+    margin-left: 2em;
+    
+
+
+}
+
+.block1b {
+    border: white;
+    margin-right: 2em;
+   
+}
+.block1b button {
+    background-color: blue;
+    color: white;
+    border-radius: 2em;
+    margin-left: 2em;
+
+}
+
+.block1c {
+    border: white;
+    margin-right: 2em;
+    margin-left: 3px;
+    
+}
+.block1c button {
+    background-color: blue;
+    color: white;
+    border-radius: 2em;
+    margin-left: 2em;
+}
+.houses2 {
+    display: flex;
+    margin-top: 2em;
+    background-color: #C4C4C4;
+
+}
+.block2a {  
+    
+    margin-left: 2em;
+    border: white;
+    
+}
+.block2a button {
+    background-color: blue;
+    color: white;
+    border-radius: 2em;
+    margin-left: 2em;
+}
+.block2b {
+    border: white;
+    margin-left: 2em;
+    
+    
+}
+.block2b button {
+    background-color: blue;
+    color: white;
+    border-radius: 2em;
+    margin-left: 2em;
+}
+.block2c {
+    border: black;
+    margin-left: 2em;
+   
+}
+.block2c button {
+    background-color: blue;
+    color: white;
+    border-radius: 2em;
+    margin-left: 2em;
+}
+
+.houses3 {
+    display: flex;
+    margin-top: 2em;
+    background-color: #C4C4C4;
+}
+
+.block3a {
+    border: white;
+    margin-left: 2em;
+
+}
+.block3a button {
+    background-color: blue;
+    color: white;
+    border-radius: 2em;
+    margin-left: 2em;
+}
+.block3b {
+    border: white;
+    margin-left: 2em;
+    
+}
+.block3b button {
+    background-color: blue;
+    color: white;
+    border-radius: 2em;
+    margin-left: 2em;
+}
+.block3c {
+    border: white;
+    margin-left: 2em;
+    
+}
+.block3c button {
+    background-color: blue;
+    color: white;
+    border-radius: 2em;
+    margin-left: 2em;
 }

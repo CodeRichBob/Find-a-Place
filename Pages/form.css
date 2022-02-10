@@ -1,0 +1,13 @@
+body {
+    background-color: #E5E5E5;
+    text-align: center;
+}
+#submit {
+    margin-top: 30px;
+}
+.select {
+    border: solid black;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-bottom: 2rem;
+}
