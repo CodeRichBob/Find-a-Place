@@ -51,9 +51,24 @@ h1 {
 
 .block1a {
   
-    margin-right: 2em;
+    /* margin-right: 2em;
     margin-left: 2em;
-    padding-right: 1em;
+    padding-right: 1em; */
+
+        padding-bottom: 10px;
+        background-color: rgb(248, 244, 244);
+        border: 1px solid #666;
+        margin: 20px;
+        background: #fff;
+        transition: 0.3s;
+        text-align: justify;
+        cursor: pointer;
+        box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+        border-radius: 10px;
+        outline: none;
+        box-shadow: inset;
+        border: none;
+    
  
 }
 .block1a button {
@@ -67,10 +82,25 @@ h1 {
 }
 
 .block1b {
-    border: white;
+    /* border: white;
     margin-right: 2em;
-   
+    */
+        padding-bottom: 10px;
+        background-color: rgb(248, 244, 244);
+        border: 1px solid #666;
+        margin: 20px;
+        background: #fff;
+        transition: 0.3s;
+        text-align: justify;
+        cursor: pointer;
+        box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+        border-radius: 10px;
+        outline: none;
+        box-shadow: inset;
+        border: none;
+
 }
+
 .block1b button {
     background-color: blue;
     color: white;
@@ -80,9 +110,24 @@ h1 {
 }
 
 .block1c {
-    border: white;
+    /* border: white;
     margin-right: 2em;
-    margin-left: 3px;
+    margin-left: 3px; */
+   
+        padding-bottom: 10px;
+        background-color: rgb(248, 244, 244);
+        border: 1px solid #666;
+        margin: 20px;
+        background: #fff;
+        transition: 0.3s;
+        text-align: justify;
+        cursor: pointer;
+        box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+        border-radius: 10px;
+        outline: none;
+        box-shadow: inset;
+        border: none;
+    
     
 }
 .block1c button {
@@ -93,15 +138,30 @@ h1 {
 }
 .houses2 {
     display: flex;
-    margin-top: 2em;
     background-color: #C4C4C4;
+    margin: 2em;
+    border-width: solid;
 
 }
 .block2a {  
-    
-    margin-left: 2em;
-    border: white;
-    
+    /* border: white;
+    margin-right: 2em;
+    margin-left: 3px; */
+   
+    padding-bottom: 10px;
+    background-color: rgb(248, 244, 244);
+    border: 1px solid #666;
+    margin: 20px;
+    background: #fff;
+    transition: 0.3s;
+    text-align: justify;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    outline: none;
+    box-shadow: inset;
+    border: none;
+
 }
 .block2a button {
     background-color: blue;
@@ -110,9 +170,24 @@ h1 {
     margin-left: 2em;
 }
 .block2b {
-    border: white;
-    margin-left: 2em;
-    
+    /* border: white;
+    margin-right: 2em;
+    margin-left: 3px; */
+   
+    padding-bottom: 10px;
+    background-color: rgb(248, 244, 244);
+    border: 1px solid #666;
+    margin: 20px;
+    background: #fff;
+    transition: 0.3s;
+    text-align: justify;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    outline: none;
+    box-shadow: inset;
+    border: none;
+
     
 }
 .block2b button {
@@ -122,9 +197,24 @@ h1 {
     margin-left: 2em;
 }
 .block2c {
-    border: black;
-    margin-left: 2em;
+    /* border: white;
+    margin-right: 2em;
+    margin-left: 3px; */
    
+    padding-bottom: 10px;
+    background-color: rgb(248, 244, 244);
+    border: 1px solid #666;
+    margin: 20px;
+    background: #fff;
+    transition: 0.3s;
+    text-align: justify;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    outline: none;
+    box-shadow: inset;
+    border: none;
+
 }
 .block2c button {
     background-color: blue;
@@ -135,13 +225,29 @@ h1 {
 
 .houses3 {
     display: flex;
-    margin-top: 2em;
     background-color: #C4C4C4;
+    margin: 2em;
+    border-width: solid;
 }
 
 .block3a {
-    border: white;
-    margin-left: 2em;
+    /* border: white;
+    margin-right: 2em;
+    margin-left: 3px; */
+   
+    padding-bottom: 10px;
+    background-color: rgb(248, 244, 244);
+    border: 1px solid #666;
+    margin: 20px;
+    background: #fff;
+    transition: 0.3s;
+    text-align: justify;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    outline: none;
+    box-shadow: inset;
+    border: none;
 
 }
 .block3a button {
@@ -151,10 +257,26 @@ h1 {
     margin-left: 2em;
 }
 .block3b {
-    border: white;
-    margin-left: 2em;
-    
+    /* border: white;
+    margin-right: 2em;
+    margin-left: 3px; */
+   
+    padding-bottom: 10px;
+    background-color: rgb(248, 244, 244);
+    border: 1px solid #666;
+    margin: 20px;
+    background: #fff;
+    transition: 0.3s;
+    text-align: justify;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    outline: none;
+    box-shadow: inset;
+    border: none;
+
 }
+
 .block3b button {
     background-color: blue;
     color: white;
@@ -162,8 +284,23 @@ h1 {
     margin-left: 2em;
 }
 .block3c {
-    border: white;
+    /* border: white;
     margin-left: 2em;
+     */
+    
+        padding-bottom: 10px;
+        background-color: rgb(248, 244, 244);
+        border: 1px solid #666;
+        margin: 20px;
+        background: #fff;
+        transition: 0.3s;
+        text-align: justify;
+        cursor: pointer;
+        box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+        border-radius: 10px;
+        outline: none;
+        box-shadow: inset;
+        border: none;
     
 }
 .block3c button {
