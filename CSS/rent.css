@@ -174,3 +174,24 @@
 .threebed {
   margin-top: 50px;
 }
+.more-property-listing {
+  text-align: center;
+  color: #2d4263;
+  margin-top: 50%;
+}
+.more-narration {
+  text-align: center;
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 20vh;
+  color: white;
+}
+.more-narration h1 {
+  font-size: 60px;
+}
+.more-narration p {
+  font-size: 40px;
+  font-family: sans-serif;
+  line-height: 40px;
+  margin-top: 1em;
+}
