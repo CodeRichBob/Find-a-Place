@@ -4,20 +4,62 @@
 	box-sizing:  border-box;
 }
 body{
-    background-color: rgb(225, 228, 228);
+    /* background-color: rgb(225, 228, 228); */
+}
+.nav-bar-fluid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo img{
+    height: 100px;
+}
+.items ul li{
+    display: inline-block;
+    justify-content: space-around;
+    padding: 30px;
+    color: #18A0FB;
+    font-weight: bold;
+
+}
+.logbtn-fluid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* margin: 20px;
+    padding: 10px; */
+
+}
+.login {
+    padding: 10px;
+    width: 7vw;
+    border: .5px solid #18A0FB;
+    background: none;
+    border-radius: 5px;
+    margin-right: 20px;
+
+}
+.register {
+    padding: 10px;
+    width: 7vw;
+    border: .5px solid #18A0FB;
+    background: #18A0FB;
+    border-radius: 5px;
+    
 }
 .header h2{
     font-size: 30px;
-    color: white;
+    color: #18A0FB;
     margin: 10px;
 }
 .header p{
     font-size: 25px;
-    color: white;
+    color: #18A0FB;
 
 }
 .header{
-    background-color:#2f3b65;
+    background-color: rgb(225, 228, 228);
     height: 13vh;
     align-content: center;
     text-align: center;
@@ -29,19 +71,31 @@ body{
     margin: 30px;
     padding: 20px;
     justify-content:space-evenly; 
+    margin-right: 35%;
 }
 .container-sm{
     color: white;
-    background-color:#2f3b65;
-    /* justify-content: space-around; */
+    background-color:#18A0FB;
+
     padding: 16px;
-    /* width: 10vw; */
     border-radius: 5px;
     text-align: center;
 
 }
 .container-sm h2{
      max-width: 100%;
+    
+}
+.container-sm h2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.container-sm:hover{
+    background: rgb(36, 166, 240);
+    transition: 1s;
+    border: 1px solid #fff;
+
 }
 .container-xl{
     display: flex;
@@ -52,25 +106,18 @@ body{
     display: flex;
     margin: 0 10%;
     width: 100%;
-    /* background-color: brown; */
     
 
 }
 .post-row{
     margin: 0% 2%;
     max-width: 50%;
-    /* background-color: firebrick; */
-    
-    /* display:inline-block; */
-
 }
 .post-col{
     padding-bottom: 10px;
     background-color: rgb(248, 244, 244);
-    /* flex: 1; */
     border: 1px solid #666;
     margin: 20px;
-    /* padding: 10px; */
     background: #fff;
     transition: 0.3s;
     text-align: justify;
@@ -78,7 +125,6 @@ body{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
 	border-radius: 10px;
 	outline: none;
-	/* box-shadow: 1px 2px 2px 2px #888888; */
 	box-shadow: inset;
 	border: none;
 }
@@ -90,7 +136,7 @@ body{
     font-family: sans-serif;
     padding-top: 10px;
     padding-left: 5px;
-    color: black;
+    color: rgb(31, 77, 202);
 
 }
 .post-col p{
@@ -149,7 +195,7 @@ max-width: 50%;
     
 }
 .post-2{
-    background-color: rgb(230, 236, 236);
+    background-color: #e1e4e4;
     width: 40%;
     margin-right: 20px;
     justify-content: space-around;
@@ -193,20 +239,17 @@ text-align: center;
 
 @media screen and (max-width: 1070px){
     .recent-fluid{
-        /* flex-direction: column; */
-        /* padding: 10px; */
+        
         padding-top: 20px;
+
     }
     .post-1-fluid{
-        /* flex-direction: column; */
         max-width: 50%;
-        /* justify-content: center; */
         text-align: center;
         margin-left: 10px;
 
     }
     .container-xl{
-        /* flex-direction: column; */
     }
     .icons-1{
         font-size: 12px;
@@ -216,7 +259,6 @@ text-align: center;
         text-align: center;
     }
     .post-2{
-        /* background-color: deeppink; */
         text-align: center;
         max-width: 100%;
         margin-left: 30px;
@@ -227,16 +269,20 @@ text-align: center;
 @media screen and (max-width: 760px){
     .recent-fluid{
         flex-direction: column;
-        /* padding: 10px; */
         padding-top: 20px;
+        margin-right: 0%;
+
     }
     .post-1-fluid{
         flex-direction: column;
         max-width: 100%;
-        /* justify-content: center; */
         text-align: center;
         margin-left: 10px;
 
+    }
+    .container-sm{
+        padding: 20px;
+        margin-bottom: 20px;
     }
     .container-xl{
         flex-direction: column;
@@ -249,7 +295,6 @@ text-align: center;
         text-align: center;
     }
     .post-2{
-        /* background-color: deeppink; */
         text-align: center;
         max-width: 100%;
         margin-left: 30px;
@@ -258,7 +303,6 @@ text-align: center;
     .post-4{
         position: relative;
         top: 40px;
-        /* background-color: blue; */
     }
 
 }
