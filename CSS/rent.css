@@ -119,6 +119,19 @@
   font-size: 20px;
   margin-top: 60px;
 }
+.apart-btn:hover {
+  background-color: #2d4263;
+}
 .oneb1:hover {
   box-shadow: 0 0 30px #2d4263;
+}
+.oneb2:hover {
+  box-shadow: 0 0 30px #2d4263;
+}
+.oneb3:hover {
+  box-shadow: 0 0 30px #2d4263;
+}
+.twobed,
+.threebed {
+  margin-top: 50px;
 }

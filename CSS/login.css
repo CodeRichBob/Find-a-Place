@@ -44,3 +44,27 @@
    border-color: #C84B31 !important;
    box-shadow: none !important;
 }
+#snackbar {
+	/* By Default, Hidden */
+	visibility: hidden;
+	min-width: 250px;
+	background-color: rgb(231, 39, 39);
+	color: #fff;
+	text-align: left;
+	border-radius: 2px;
+	padding: 16px;
+	/* To always Keep on
+	Top of screen */
+	position: fixed;
+
+	/* To be displayed above
+	Parent HTML DOM element */
+	z-index: 1;
+
+	/* Position Bottom Left
+	Corner of Screen */
+	right: 10px;
+	bottom: 30px;
+}
+
+
