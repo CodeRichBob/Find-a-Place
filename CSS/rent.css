@@ -166,7 +166,13 @@
   background-color: #c84b31;
   color: white;
   font-size: 20px;
-  margin-top: 60px;
+  margin-top: 20px;
+}
+.description {
+  text-align: justify;
+  margin-left: 20px;
+  margin-top: 5px;
+  font-size: 20px;
 }
 .apart-btn:hover {
   background-color: #2d4263;
@@ -267,4 +273,8 @@
     bottom: 0;
     opacity: 0;
   }
+}
+#specs {
+  text-decoration: none;
+  line-height: 20px;
 }
