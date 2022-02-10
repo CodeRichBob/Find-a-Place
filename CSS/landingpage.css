@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800;900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 /* Navigation bar section */
@@ -55,11 +57,12 @@
 /* Welcome text section with image on the right */
 
 .slogan {
-    height: 100vh;
+    height: 130vh;
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
 }
 .finder {
@@ -71,7 +74,7 @@
 
 .guyhome img {
     margin-right: 40px;
-    margin-top: 20px;
+    margin-top: 90px;
     background-size: cover;
     height: 95vh;
     width: 80vh;
@@ -108,17 +111,38 @@
 /* Newly listed apartments section */
 
 .apartment {
-    height: 130vh;
+    height: 200vh;
     width: 100%;
 }
+.titlenew {
+    padding: 20px;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.titlenew p {
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.titlenew h1 {
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
 .aptlist {
+   /*  margin-left: 30px;
+    margin-right: 30px; */
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    
 }
 
 .list1 {
+    
     display: flex;
     flex-direction: column;
     border-radius: 30px;
@@ -127,9 +151,15 @@
     background: #e8ecee;
 
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+
 }
 
+.list1:hover {
 
+  border-radius: 30px;
+  box-shadow: 0 25px 45px rgba(0,0,0,0.5);
+  transition: opacity 0.3s ease-in-out;
+}
 
 .list1 img {
     height: 280px;
@@ -137,3 +167,472 @@
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
+
+.list1 h3 {
+    font-size: 13px;
+    margin: 10px;
+    
+}
+.list1 ul li{
+    font-size: 13px;
+    margin-left: 40px;
+}
+.price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.price p {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    margin: 5px;
+}
+.booknow {
+    padding: 5px;
+    width: 7vw;
+    margin: 8px;
+    border: .5px solid #18A0FB;
+    background: #18A0FB;
+    border-radius: 5px;
+    align-self: flex-start;
+    color: white;
+
+}
+.second {
+    margin-top: 30px;
+}
+
+/* Our services section */
+
+.services {
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fafafa;
+}
+.servicestext {
+    align-items: center;
+    text-align: center;
+}
+
+.collabo {
+    display: flex;
+    flex-direction: row;
+   /*  height: 50vh;
+    width: 100%; */
+    justify-content: space-around;
+    margin-top: 40px;
+
+    align-items: center;
+    background: rgb(255, 255, 255);
+
+}
+
+.house {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+.house img {
+    height: 100px;
+    width: 100px;
+}
+
+
+/* About us section styling starts here */
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    height: 150vh;
+    width: 100%;
+    background: #e9ecee;
+}
+.combinedimages {
+    margin-left: 50px;
+}
+.aboutus h3 {
+    text-align: center;
+    color: #C84B31;
+}
+.aboutus p{
+    padding: 10px;
+
+    }
+.aboutus h1 {
+    color: #1d06f1;
+    text-align: center;
+}
+.aboutus p {
+    padding: 10px;
+    color: #000000;
+    word-spacing: 5px;
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 50px;
+    line-height: 30px;
+}
+
+
+
+
+
+/* Reviews section styling */
+.industry {
+    position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background: #fafafa;
+   color: black;
+   height: 250vh;
+   margin-top: 70px;
+}
+
+.industry .ind {
+   
+    
+    text-align: center;
+    padding: 30px;
+    
+
+}
+.industry .ind h2 {
+    font-size: 25px;
+    padding: 20px;
+}
+.industry .ind p {
+    padding: 5px;
+}
+
+.slate {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 10px;
+/*     border: 2px solid rgb(190, 187, 187);
+ */
+} 
+.slate .part1 {
+    height: 350px;
+    width: 240px;
+    padding: 30px;
+    border: 1px solid rgb(207, 199, 199);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 10pt;
+    margin-right: 30px;
+}
+
+.slate .part1 p {
+    margin-top: 20px;
+}
+.slate .part1 .star {
+    max-height: 30px;
+    width: auto;
+    margin-top: 20px;
+}
+
+
+.slate .part2 {
+    height: 350px;
+    width: 240px;
+    padding: 30px;
+    border: 1px solid rgb(207, 199, 199);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 10pt;
+}
+/* .slate .part2 .pic1 {
+    height: 150px;
+    width: 150px;
+    padding: 20pxS;
+} */
+.slate .part2 p {
+    margin-top: 20px;
+}
+.slate .part2 .star {
+    max-height: 30px;
+    width: auto;
+    margin-top: 20px;
+}
+
+
+.slate .part3 {
+    height: 350px;
+    width: 240px;
+    padding: 30px;
+    border: 1px solid rgb(207, 199, 199);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 10pt;
+    margin-left: 30px;
+}
+/* .slate .part3 .pic1 {
+    height: 150px;
+    width: 150px;
+    padding: 20pxs;
+} */
+.slate .part3 p {
+    margin-top: 20px;
+}
+.slate .part3 .star {
+    max-height: 30px;
+    width: auto;
+    margin-top: 20px;
+}
+.pic1 {
+    height: 180px;
+    width: 180px;
+    padding: 5px;
+    border-radius: 100px;
+
+}
+
+/* THE VECTOR SECTION STARTS HERE */
+.industry .vectors ul li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+
+
+}
+.industry .vectors ul li img {
+    max-height: 90px;
+    width: auto;
+    padding: 30px;
+    margin-top: 130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER SECTION STARTS HERE */
+
+.callus {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #fafafa;
+    color: black;
+    margin-top: 100px;
+}
+
+.callus .call h3 {
+    padding: 10px;
+    font-size: 14pt;
+    font-stretch: expanded;
+    font-weight: 900;
+
+}
+.callus .call p {
+    font-size: 9pt;
+    font-stretch: expanded;
+    margin-left: 10px;
+    color: grey;
+}
+.callus .click button {
+    border: none;
+    text-decoration: none;
+    height: 7vh;
+    width: 10vw;
+    color: #ffffff;
+    background: #22a6f0;
+    cursor: pointer;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+
+}
+/* footer section starts here */
+
+.ftr {
+    
+    color: black;
+    height: 100vh;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Company starts here */
+
+.ftr .company h4 {
+    font-weight: 900;
+    margin-left: 20px;
+
+}
+
+.ftr .company ul {
+    list-style: none ;
+    padding: 20px;
+    text-align: left;
+    /* margin: 10px 0; */
+    
+}
+.ftr .company ul li {
+    margin: 10px 0;
+}
+
+.ftr .company ul li a {
+    color: #011101;
+    font-weight: 300;
+    font-size: 10pt;
+    text-decoration: none;
+    list-style: none;
+} 
+
+/* legal starts here */
+
+.ftr .legal h4 {
+    font-weight: 900;
+    margin-left: 20px;
+
+}
+
+.ftr .legal ul {
+    list-style: none ;
+    padding: 20px;
+    text-align: left;
+    /* margin: 10px 0; */
+    
+}
+.ftr .legal ul li {
+    margin: 10px 0;
+}
+
+.ftr .legal ul li a {
+    color: #011101;
+    font-weight: 300;
+    font-size: 10pt;
+    text-decoration: none;
+    list-style: none;
+} 
+
+
+/* Features starts here */
+
+.ftr .features img {
+    height: 80px;
+    width: 80%;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 50px;
+
+}
+
+.ftr .features ul {
+    list-style: none ;
+    padding: 20px;
+    text-align: left;
+    /* margin: 10px 0; */
+    
+}
+.ftr .features ul li {
+    margin: 10px 0;
+}
+
+.ftr .features ul li a {
+    color: #011101;
+    font-weight: 300;
+    font-size: 10pt;
+    text-decoration: none;
+    list-style: none;
+} 
+
+/* Resources Start here */
+
+.ftr .resources h4 {
+    font-weight: 900;
+    margin-left: 20px;
+
+}
+
+.ftr .resources ul {
+    list-style: none ;
+    padding: 20px;
+    text-align: left;
+    /* margin: 10px 0; */
+    
+}
+.ftr .resources ul li {
+    margin: 10px 0;
+}
+
+.ftr .resources ul li a {
+    color: #011101;
+    font-weight: 300;
+    font-size: 10pt;
+    text-decoration: none;
+    list-style: none;
+} 
+
+
+/* Intouch starts here */
+
+.ftr .intouch h4 {
+    font-weight: 900;
+    margin-left: 20px;
+    padding: 0;
+    margin-bottom: 10px;
+
+}
+
+.ftr .intouch ul {
+    list-style: none ;
+    padding: 20px;
+    text-align: left;
+    /* margin: 10px 0; */
+    
+}
+.ftr .intouch ul li {
+    margin: 0 0;
+}
+
+.ftr .intouch ul li a {
+    color: #011101;
+    font-weight: 300;
+    font-size: 10pt;
+    text-decoration: none;
+    list-style: none;
+} 
+.ftr .intouch ul li a img {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    margin-top: 10px;
+}
+
