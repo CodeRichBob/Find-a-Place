@@ -16,6 +16,8 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  height: 15vh;
+  background: #ffffff;
 }
 .logo img {
   height: 100px;
@@ -41,6 +43,7 @@
   background: none;
   border-radius: 5px;
   margin-right: 20px;
+  cursor: pointer;
 }
 .register {
   padding: 10px;
@@ -48,8 +51,15 @@
   border: 0.5px solid #18a0fb;
   background: #18a0fb;
   border-radius: 5px;
+  cursor: pointer;
+}
+.login:hover {
+  background: #c84b31;
 }
 
+.register:hover {
+  background: #c84b31;
+}
 .narration {
   text-align: center;
   position: absolute;
@@ -215,4 +225,46 @@
 }
 .theEnd {
   margin-left: 30%;
+}
+#toast {
+  /* By Default, Hidden */
+  visibility: hidden;
+  min-width: 250px;
+  background-color: rgb(231, 39, 39);
+  color: #fff;
+  text-align: left;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  right: 10px;
+  bottom: 30px;
+}
+.show-bar {
+  visibility: visible !important;
+  animation: fadein 0.5s, fadeout 0.5s 4.5s;
+}
+
+@keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+/* when the Snackbar Disappears
+    from the Screen */
+@keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
 }
