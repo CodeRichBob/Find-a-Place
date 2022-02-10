@@ -4,7 +4,7 @@ h1 {
 .Box1 {
     display: flex;
     font-size: x-large;
-    margin-left: 1em;
+    margin: 2em;
     /* background-color: #C4C4C4;; */
     
     
@@ -24,18 +24,6 @@ h1 {
    margin-top: 20%;
    padding: 5%;
    width: 60%;
-
-
-}
-.Sbutton {
-    margin-top: 2em;
-    margin-left: 2em;
-    border-radius: 10px;
-    margin-bottom: 2em;
-    text-align: center;
-    padding: 2rem 3rem;
-
-    
 
 
 }
@@ -225,9 +213,9 @@ h1 {
 
 .houses3 {
     display: flex;
-    background-color: #C4C4C4;
     margin: 2em;
     border-width: solid;
+    background-color: #C4C4C4;
 }
 
 .block3a {
